@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 .wrapper {
-  background-image: url(../../img/icons/bg13.jpg);
+  background-image: url(../img/icons/bg13.jpg);
 }
 
 .header__full {
@@ -386,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
   padding: 410px 0 0 280px;
-  background-image: url(../../img/image-study.jpg);
+  background-image: url(../img/image-study.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
@@ -576,7 +576,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid;
   -webkit-box-shadow: 0 0 7px #8709cf;
           box-shadow: 0 0 7px #8709cf;
-  background-image: url(../../img/logo-square.png);
+  background-image: url(../img/logo-square.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -881,59 +881,7 @@ h1, h2, h3, h4, h5, h6 {
             flex: 0 0 90%;
     font-size: 2.2em;
   }
-  .header__account form {
-    /*
-        flex: 0 0 60%;
-        margin-bottom: 5px;
-        margin: 0 auto 5px auto;
-        text-align: center;*/
-  }
-  .header__subtitle {
-    /*flex: 0 0 25%;
-      text-align: center;
-      line-height: 16px;*/
-  }
-  .header__input {
-    /*max-width: 100px;
-      border-radius: 3px;
-      padding: 2px;
-      text-indent: 8px;*/
-  }
-  .header__button {
-    /*text-transform: uppercase;
-      font-size: 13px;
-      height: 23px;
-      flex: 0 0 12%;
-      background-color: $carrot;
-      border-radius: 3px;
-      transition: all 0.5s linear;*/
-  }
-  .header__button:hover {
-    /*box-shadow: 0 0 5px $purple;
-      transition: all 0.5s linear;*/
-  }
-  .header__button:active {
-    /*a {
-         font-weight: 700;
-         color: $darkBlue;
-         transition: all 0.5s linear;
-       }*/
-  }
-  .header__register {
-    /*flex: 0 0 45%;
-      text-decoration: none;
-      text-align: center;
-      line-height: 16px;*/
-  }
-  .header__register:hover {
-    /*text-decoration: underline;*/
-  }
-  .header__register:active {
-    /* a {
-         color: $darkBlue;
-         font-weight: 700;
-       }*/
-  }
+ 
   .header__nav {
     padding-bottom: 0;
   }
@@ -1164,17 +1112,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transition: all 0.5s linear;
     transition: all 0.5s linear;
   }
-  .header__button:hover {
-    /*box-shadow: 0 0 5px $purple;
-      transition: all 0.5s linear;*/
-  }
-  .header__button:active {
-    /*a {
-         font-weight: 700;
-         color: $darkBlue;
-         transition: all 0.5s linear;
-       }*/
-  }
+  
   .header__register {
     display: inline-block;
     position: relative;
@@ -1184,15 +1122,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     line-height: 16px;
   }
-  .header__register:hover {
-    /*text-decoration: underline;*/
-  }
-  .header__register:active {
-    /* a {
-         color: $darkBlue;
-         font-weight: 700;
-       }*/
-  }
+  
   .header__nav {
     display: none;
     padding-bottom: 0;
