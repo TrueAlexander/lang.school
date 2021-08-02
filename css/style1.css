@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.header1 {
+  background-color: rgba(133, 220, 184, 0.9);
+}
+
+.registration {
+  height: 100vh;
+}
+
+.registration__title {
+  margin: 35px 0;
+  text-align: center;
+  color: #8709cf;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 2.3em;
+  letter-spacing: 0.1em;
+  font-weight: 550;
+}
+
+.registration__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 25px 25px;
+}
+
+.registration__box form {
+  padding: 30px 30px 30px 280px;
+  text-indent: 5px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  color: #8709cf;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.registration__box form input {
+  margin: 10px 0;
+  padding: 4px;
+  -webkit-box-shadow: 0 0 3px #E27D60;
+          box-shadow: 0 0 3px #E27D60;
+}
+
+.registration__subtitle {
+  text-align: center;
+  color: #E27D60;
+  font-family: "Oswald", sans-serif;
+  font-size: 2em;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  letter-spacing: 0.05em;
+  margin: 0 0 30px;
+}
+
+.registration__image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.registration__image img {
+  width: 80%;
+  display: block;
+  -webkit-box-shadow: 0 0 8px #8709cf;
+          box-shadow: 0 0 8px #8709cf;
+}
+
+.register {
+  display: block;
+  margin: 0 auto 0 290px;
+  background-color: #E27D60;
+  color: #05386b;
+  padding: 7px;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  width: 200px;
+  border-radius: 7px;
+  -webkit-transition: all 400ms ease 200ms;
+  transition: all 400ms ease 200ms;
+}
+
+.register:hover {
+  -webkit-box-shadow: 0 0 7px #8709cf;
+          box-shadow: 0 0 7px #8709cf;
+  -webkit-transition: all 400ms ease 200ms;
+  transition: all 400ms ease 200ms;
+}
+
+.register:active {
+  background-color: #bdb8b8;
+}
+
+@media (max-width: 1200px) {
+  .registration {
+    height: 100vh;
+  }
+  .registration__title {
+    margin: 15px 0;
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+  .registration__box {
+    padding: 0 25px 15px;
+  }
+  .registration__box form {
+    padding: 0 0 0 100px;
+  }
+  .registration__subtitle {
+    font-size: 1.5em;
+    margin: 0 0 15px;
+  }
+  .registration__image {
+    position: relative;
+  }
+  .registration__image img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+  }
+  .register {
+    margin: 0 auto 0 110px;
+  }
+}
+
+@media (max-width: 890px) {
+  .registration {
+    height: 100vh;
+  }
+  .registration__title {
+    margin: 15px 0;
+  }
+  .registration__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 15px;
+  }
+  .registration__box form {
+    padding-left: 0;
+    text-align: center;
+    text-indent: 0px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    font-size: 1em;
+  }
+  .registration__box form input {
+    margin: 15px auto;
+  }
+  .registration__image {
+    display: none;
+  }
+  .register {
+    margin: 15px auto;
+  }
+}
+/*# sourceMappingURL=style1.css.map */
