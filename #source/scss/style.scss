@@ -17,7 +17,7 @@ $lightGrey: rgb(189, 184, 184);
 $lightGreen: rgba(133, 220, 184, 0.9);
 
 .wrapper {
-  background-image: url(img/icons/bg13.jpg);
+  background-image: url(../img/icons/bg13.jpg);
 }
 
 .container {
@@ -294,7 +294,7 @@ $lightGreen: rgba(133, 220, 184, 0.9);
 
 .main {
   padding: 410px 0 0 280px;
-  background-image: url(img/image-study.jpg);
+  background-image: url(../img/image-study.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
@@ -470,7 +470,7 @@ $lightGreen: rgba(133, 220, 184, 0.9);
       overflow: hidden;
       border: 1px solid;
       box-shadow: 0 0 7px $purple;
-      background-image: url(img/logo-square.png);
+      background-image: url(../img/logo-square.png);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
