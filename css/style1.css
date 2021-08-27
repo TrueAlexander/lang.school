@@ -1,5 +1,4 @@
-@charset "UTF-8";
-/*Обнуление*/
+/*reset CSS*/
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
 * {
   padding: 0;
@@ -183,9 +182,6 @@ h1, h2, h3, h4, h5, h6 {
   }
   .registration__box {
     padding: 0 25px 15px;
-  }
-  .registration__box form {
-    padding: 0 0 0 100px;
   }
   .registration__subtitle {
     font-size: 1.5em;

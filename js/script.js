@@ -1,3 +1,5 @@
+//add "sticky" class for scroll
+
 $(window).scroll(function(){
   if ($(this).scrollTop() > 1) {
    $(".header__full, .header__scroll").addClass("sticky"); 
@@ -6,6 +8,8 @@ $(window).scroll(function(){
     $(".header__full, .header__scroll").removeClass("sticky");
   }
 });
+
+//slider Swiper settings
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,

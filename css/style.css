@@ -1,5 +1,4 @@
-@charset "UTF-8";
-/*Обнуление*/
+/*reset CSS*/
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
 * {
   padding: 0;
@@ -75,7 +74,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 .wrapper {
-  background-image: url(../img/icons/bg13.jpg);
+  background-image: url(../../img/icons/bg13.jpg);
+}
+
+.container {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 .header__full {
@@ -130,11 +136,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: #E27D60;
+  color: #e06948;
   font-size: 3em;
   line-height: 1.3em;
   text-transform: uppercase;
-  text-shadow: 0 0 2px #E27D60;
+  text-shadow: 0 0 2px #e06948;
   margin: auto;
 }
 
@@ -186,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 12%;
           flex: 0 0 12%;
-  background-color: #E27D60;
+  background-color: #e06948;
   border-radius: 3px;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
@@ -227,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__nav {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-transform: uppercase;
-  color: #E27D60;
+  color: #e06948;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -244,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__link a {
   text-decoration: none;
-  color: #E27D60;
+  color: #e06948;
   font-weight: 700;
   font-size: 1.3em;
   position: relative;
@@ -284,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .teachers .content a {
-  color: #E27D60;
+  color: #e06948;
   line-height: 1.5em;
   display: block;
 }
@@ -295,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .teachers .content a:hover {
   background-color: #bdb8b8;
-  text-shadow: 0 0 1px #E27D60;
+  text-shadow: 0 0 1px #e06948;
 }
 
 .teachers .content a:active {
@@ -357,11 +363,11 @@ h1, h2, h3, h4, h5, h6 {
           flex: 0 0 80%;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
-  color: #E27D60;
+  color: #e06948;
   font-size: 2em;
   line-height: 1.3em;
   text-transform: uppercase;
-  text-shadow: 0 0 2px #E27D60;
+  text-shadow: 0 0 2px #e06948;
   margin: auto;
   text-align: left;
 }
@@ -369,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__nav {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-transform: uppercase;
-  color: #E27D60;
+  color: #e06948;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -377,16 +383,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px auto 10px auto;
 }
 
-.container {
-  position: relative;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
 .main {
   padding: 410px 0 0 280px;
-  background-image: url(../img/image-study.jpg);
+  background-image: url(../../img/image-study.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
@@ -394,22 +393,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .main__title {
   color: #8709cf;
-  text-shadow: 0 0 2px #E27D60;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 2.5em;
   width: 40%;
   line-height: 1.3em;
+  background-color: rgba(185, 184, 184, 0.85);
+  padding: 5px;
+  border-radius: 3px;
 }
 
 .main__subtitle {
   margin: 60px 0 20px;
-  text-shadow: 0 0 2px #8709cf;
   font-size: 2em;
-  color: #E27D60;
+  color: #8709cf;
   font-weight: 700;
   text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   font-family: sans-serif;
+  background-color: rgba(185, 184, 184, 0.85);
+  padding: 5px;
+  border-radius: 3px;
 }
 
 .main__trial-lesson {
@@ -418,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
   color: #05386b;
-  background-color: #E27D60;
+  background-color: #e06948;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-size: 1.5em;
@@ -483,8 +489,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .languages__link:hover {
-  -webkit-box-shadow: 0 0 10px #E27D60;
-          box-shadow: 0 0 10px #E27D60;
+  -webkit-box-shadow: 0 0 10px #e06948;
+          box-shadow: 0 0 10px #e06948;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -550,7 +556,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .offer ul {
   font-family: "Oswald", sans-serif;
-  color: #E27D60;
+  color: #e06948;
   font-weight: 700;
   line-height: 1em;
   font-size: 1.6em;
@@ -576,7 +582,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid;
   -webkit-box-shadow: 0 0 7px #8709cf;
           box-shadow: 0 0 7px #8709cf;
-  background-image: url(../img/logo-square.png);
+  background-image: url(../../img/logo-square.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -611,8 +617,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .professors__img {
-  -webkit-box-shadow: 0 0 7px #E27D60;
-          box-shadow: 0 0 7px #E27D60;
+  -webkit-box-shadow: 0 0 7px #e06948;
+          box-shadow: 0 0 7px #e06948;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 200px;
           flex: 0 0 200px;
@@ -629,7 +635,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
-  color: #E27D60;
+  color: #e06948;
   font-family: "Oswald", sans-serif;
   font-size: 2em;
   text-align: center;
@@ -685,7 +691,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .professors__more a {
-  color: #E27D60;
+  color: #e06948;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
   font-size: 1.2em;
@@ -702,13 +708,72 @@ h1, h2, h3, h4, h5, h6 {
 
 .professors__link a {
   text-decoration: none;
-  color: #E27D60;
+  color: #e06948;
   text-transform: uppercase;
   font-size: 1.3em;
 }
 
 .professors__link:hover {
   text-decoration: underline;
+}
+
+.feedback {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.feedback__title {
+  margin-bottom: 20px;
+}
+
+.swiper-container {
+  color: #8709cf;
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.swiper-slide {
+  background-color: rgba(133, 220, 184, 0.9);
+  margin: auto 0;
+  border-radius: 10px;
+  font-size: 1.1em;
+}
+
+.slide__item {
+  padding: 15px;
+}
+
+.slide__title {
+  font-size: 1.3em;
+  text-align: center;
+  color: #e06948;
+}
+
+.slide__text {
+  margin: 15px auto;
+  line-height: 1.5em;
+  text-align: center;
+  text-indent: 1em;
+}
+
+.slide__city {
+  color: #e06948;
+  text-align: center;
+}
+
+.swiper-pagination {
+  position: relative;
+  padding-top: 20px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #8709cf;
 }
 
 .footer {
@@ -745,7 +810,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__language a {
-  color: #E27D60;
+  color: #e06948;
   font-family: "Oswald", sans-serif;
   text-transform: capitalize;
   font-size: 1.3em;
@@ -791,8 +856,8 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin: 0 auto;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 7px #E27D60;
-          box-shadow: 0 0 7px #E27D60;
+  -webkit-box-shadow: 0 0 7px #e06948;
+          box-shadow: 0 0 7px #e06948;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
@@ -810,65 +875,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #8709cf;
 }
 
-.feedback {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.feedback__title {
-  margin-bottom: 20px;
-}
-
-.swiper-container {
-  color: #8709cf;
-  font-family: "Oswald", sans-serif;
-  padding: 10px;
-  margin: 0 auto;
-  width: 90%;
-}
-
-.swiper-slide {
-  background-color: rgba(133, 220, 184, 0.9);
-  margin: auto 0;
-  border-radius: 10px;
-  font-size: 1.1em;
-}
-
-.slide__item {
-  padding: 15px;
-}
-
-.slide__title {
-  font-size: 1.3em;
-  text-align: center;
-  color: #E27D60;
-}
-
-.slide__text {
-  margin: 15px auto;
-  line-height: 1.5em;
-  text-align: center;
-  text-indent: 1em;
-}
-
-.slide__city {
-  color: #E27D60;
-  text-align: center;
-}
-
-.swiper-pagination {
-  position: relative;
-  padding-top: 20px;
-}
-
-.swiper-pagination-bullet {
-  background-color: #000;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: #8709cf;
-}
-
 @media (max-width: 1200px) {
   .header__logo img {
     height: 70px;
@@ -881,7 +887,6 @@ h1, h2, h3, h4, h5, h6 {
             flex: 0 0 90%;
     font-size: 2.2em;
   }
- 
   .header__nav {
     padding-bottom: 0;
   }
@@ -925,8 +930,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #05386b;
   }
   .languages__link:hover {
-    -webkit-box-shadow: 0 0 10px #E27D60;
-            box-shadow: 0 0 10px #E27D60;
+    -webkit-box-shadow: 0 0 10px #e06948;
+            box-shadow: 0 0 10px #e06948;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
@@ -935,15 +940,6 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 0 0 2px #05386b;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-  }
-  .languages__flag {
-    text-align: center;
-  }
-  .languages__flag img {
-    width: 70px;
-    border-radius: 40%;
-    -webkit-box-shadow: 0 0 8px #8709cf;
-            box-shadow: 0 0 8px #8709cf;
   }
   .languages__flag {
     text-align: center;
@@ -990,7 +986,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .offer ul {
     font-family: "Oswald", sans-serif;
-    color: #E27D60;
+    color: #e06948;
     font-weight: 700;
     font-size: 1.6em;
     text-align: center;
@@ -1014,7 +1010,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid;
     -webkit-box-shadow: 0 0 7px #8709cf;
             box-shadow: 0 0 7px #8709cf;
-    background-image: url(../img/logo-square.png);
+    background-image: url(../../img/logo-square.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1105,14 +1101,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 12px;
     height: 20px;
     width: 80px;
-    background-color: #E27D60;
+    background-color: #e06948;
     border-radius: 3px;
     margin: 0 10px 0 auto;
     display: inline-block;
     -webkit-transition: all 0.5s linear;
     transition: all 0.5s linear;
   }
-  
   .header__register {
     display: inline-block;
     position: relative;
@@ -1122,7 +1117,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     line-height: 16px;
   }
-  
   .header__nav {
     display: none;
     padding-bottom: 0;
@@ -1186,8 +1180,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #05386b;
   }
   .languages__link:hover {
-    -webkit-box-shadow: 0 0 10px #E27D60;
-            box-shadow: 0 0 10px #E27D60;
+    -webkit-box-shadow: 0 0 10px #e06948;
+            box-shadow: 0 0 10px #e06948;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
@@ -1196,15 +1190,6 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 0 0 2px #05386b;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-  }
-  .languages__flag {
-    text-align: center;
-  }
-  .languages__flag img {
-    width: 40px;
-    border-radius: 40%;
-    -webkit-box-shadow: 0 0 8px #8709cf;
-            box-shadow: 0 0 8px #8709cf;
   }
   .languages__flag {
     text-align: center;
@@ -1262,7 +1247,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid;
     -webkit-box-shadow: 0 0 5px #8709cf;
             box-shadow: 0 0 5px #8709cf;
-    background-image: url(../img/logo-square.png);
+    background-image: url(../../img/logo-square.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
