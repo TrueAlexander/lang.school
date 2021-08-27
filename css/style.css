@@ -1010,7 +1010,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid;
     -webkit-box-shadow: 0 0 7px #8709cf;
             box-shadow: 0 0 7px #8709cf;
-    background-image: url(../../img/logo-square.png);
+    background-image: url(../img/logo-square.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
