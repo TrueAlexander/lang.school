@@ -582,6 +582,7 @@ $lightGreen: rgba(133, 220, 184, 0.9);
 // feedback section
 
 .feedback {
+ 
   position: relative;
   margin-bottom: 30px;
 
@@ -597,7 +598,8 @@ $lightGreen: rgba(133, 220, 184, 0.9);
   font-family: $oswald;
   padding: 10px;
   margin: 0 auto;
-  width: 90%; 
+  width: 90%;
+  overflow: hidden; 
 }
 
 .swiper-slide {

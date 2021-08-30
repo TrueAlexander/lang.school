@@ -20,6 +20,7 @@ $lightGreen: rgba(133, 220, 184, 0.9);
 }
 
 .registration {
+  padding-bottom: 20px;
   height: 100vh;
 
   &__title {
@@ -33,18 +34,29 @@ $lightGreen: rgba(133, 220, 184, 0.9);
     font-weight: 550;
   }
 
+  &__subtitle {
+    text-align: center;
+    color: $carrot;
+    font-family: $oswald;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    margin: 0 0 30px;
+  }
+
   &__box {
     display: flex;
     flex-wrap: wrap;
     padding: 0 25px 25px;
     
     form {
-      padding: 30px 30px 30px 280px;
+      position: relative;
+      padding: 30px auto 30px;
       text-indent: 5px;
-      flex: 0 0 50%;
+      flex: 1 1 50%;
       color: $purple;
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
       font-size: 1.2em;
+      text-align: center;
 
       input {
         margin: 10px 0;
@@ -53,18 +65,12 @@ $lightGreen: rgba(133, 220, 184, 0.9);
       }
     }
   }
-  &__subtitle {
-    text-align: center;
-    color: $carrot;
-    font-family: $oswald;
-    font-size: 2em;
-    flex: 0 0 100%;
-    letter-spacing: 0.05em;
-    margin: 0 0 30px;
-  }
 
   &__image {
-    flex: 0 0 50%;
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img {
       width: 80%;
@@ -75,8 +81,11 @@ $lightGreen: rgba(133, 220, 184, 0.9);
 }
 
 .register {
+  position: absolute;
+  bottom: -50px;
+  right: 50%;
+  transform: translate(50%, 0);
   display: block;
-  margin: 0 auto 0 290px;
   background-color: $carrot;
   color: $darkBlue;
   padding: 7px;
@@ -102,38 +111,26 @@ $lightGreen: rgba(133, 220, 184, 0.9);
 
 @media (max-width:1200px) {
   
-.registration {
-  height: 100vh;
+  .registration {
 
-  &__title {
-    margin: 15px 0;
-    font-size: 1.5em;
-    line-height: 1.2em;
-  }
+   &__title {
+      margin: 15px 0;
+      font-size: 1.5em;
+      line-height: 1.2em;
+    }
 
-  &__box {
-    padding: 0 25px 15px;
-  }
-  &__subtitle {
-    font-size: 1.5em;
-    margin: 0 0 15px;
-  }
-
-  &__image {
-    position: relative;
-
-    img {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      transform: translate(0, -50%);
+    &__box {
+      padding: 0 25px 15px;
+    }
+    
+    &__subtitle {
+      font-size: 1.5em;
+      margin: 0 0 15px;
     }
   }
-}
-
-.register {
-  margin: 0 auto 0 110px;
-}
+  .register {
+    bottom: -70px;
+  }
 }
 
 //media max-width 890px
@@ -141,36 +138,10 @@ $lightGreen: rgba(133, 220, 184, 0.9);
 @media (max-width:890px) {
   
   .registration {
-    height: 100vh;
-
-    &__title {
-      margin: 15px 0;
-    }
-  
-    &__box {
-      display: flex;
-      padding: 15px;
-      
-      form {
-        padding-left: 0;
-        text-align: center;
-        text-indent: 0px;
-        flex: 0 0 100%;
-        font-size: 1em;
-
-        input {
-          margin: 15px auto;
-        }  
-      }
-    }
   
     &__image {
       display: none;
     }
-  }
-  
-  .register {
-    margin: 15px auto;
   }
 }
 
